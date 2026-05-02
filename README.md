@@ -14,7 +14,6 @@ The final compressed model achieves a WikiText-2 perplexity of 21.58 (≈ +3.49 
 
 ## Repository Layout
 
-- `models/` — pretrained and converted model files (e.g. `qwen2.5-sg-gptq-q4_k_m.gguf`, `tinyllama-sg-gptq-q4_k_m.gguf`).
 - `notebooks/` — Jupyter notebooks for experiments, training, quantisation, and evaluation.
 - `third_party/llama.cpp/` — vendor build and helper scripts used for deploying quantised/gguf models with `llama.cpp` tooling.
 - `README.md` — this file.
@@ -44,7 +43,6 @@ For best results, download and run the notebooks from Kaggle where free GPU comp
    - Model export to `.gguf` and evaluation
 
 4. Download the resulting `.gguf` models and test results on to your local machine(CPU machine).
-5. Place `.gguf` files in the `models/` directory.
 
 
 
@@ -296,4 +294,4 @@ For questions, open an issue or contact the maintainers via the repository issue
 
 ---
 
-For step-by-step reproduction and parametrization, see the notebooks in `notebooks/` and the model artifacts in `models/`.
+For step-by-step reproduction and parametrization, see the notebooks in `notebooks/` and create your own `models/` directory.
