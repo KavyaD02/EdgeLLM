@@ -52,9 +52,9 @@ For best results, download and run the notebooks from Kaggle where free GPU comp
 
 Open the notebooks in `notebooks/` to reproduce experiments and analyses:
 
-- `qwen-final (1).ipynb` — compression steps, KD, and quantisation applied to Qwen2-0.5B.
-- `tinyllama-final.ipynb` — smaller model experiments and speed/size trade-offs.
-- `opt1-3-final (1).ipynb` — additional experiments, baselines, and comparisons.
+- `qwen.ipynb` — compression steps, KD, and quantisation applied to Qwen2-0.5B.
+- `tinyllama.ipynb` — smaller model experiments and speed/size trade-offs.
+- `opt1-3.ipynb` — additional experiments, baselines, and comparisons.
 
 Each notebook contains detailed, runnable steps for data preparation, pruning, distillation, quantisation, and evaluation. They also show how to export final models to the `gguf` format for `llama.cpp` consumption.
 
