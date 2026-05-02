@@ -1,5 +1,7 @@
 # EdgeLLM — Model Compression & Edge Deployment Toolkit
 
+**Course Link:** https://www.samy101.com/edge-ai-26/
+
 This repository demonstrates a full compression and deployment pipeline that makes large language models practical on commodity edge devices (for example, Raspberry Pi 5). The pipeline compresses Qwen2-0.5B using layer-aware structured sparsity, knowledge distillation, and SG-GPTQ 4-bit quantisation to produce a small, fast model suitable for on-device inference.
 
 ## Abstract
