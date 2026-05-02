@@ -138,7 +138,7 @@ GPTQ performs quantisation on each weight matrix layer-wise with approximate sec
 
 Perplexity (PPL) on the WikiText-2 test set:
 
-$$\text{PPL} = \exp\!\left(-\frac{1}{N}\sum_{i=1}^{N}\log p_\theta(x_i \mid x_{<i})\right)$$
+$$\text{PPL} = \exp\left(-\frac{1}{N}\sum_{i=1}^{N}\log p_\theta(x_i \mid x_{<i})\right)$$
 
 Lower PPL indicates better language modelling quality. Stride 512 is used for all evaluations.
 
